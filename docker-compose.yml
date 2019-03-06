@@ -1,0 +1,15 @@
+version: '2.0'
+
+services:
+
+ com-contract-service:
+  image: com-contract-service:latest
+  ports: 
+   - "8004:8004"
+ 
+ 
+ com-notification-service:
+  image: com-notification-service:latest
+  ports: 
+   - "8000:8000"
+ 
